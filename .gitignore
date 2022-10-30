@@ -2,3 +2,4 @@
 Manifest.toml
 *.out
 *.so
+deps/build/
