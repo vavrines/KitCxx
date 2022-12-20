@@ -1,7 +1,8 @@
 using CxxWrap
 
 prefix = CxxWrap.prefix_path()
-options = ["-DCMAKE_BUILD_TYPE=Release", "-DCMAE_PREFIX_PATH=$prefix"]
+options = ["-DCMAKE_BUILD_TYPE=Release", "-DCMAKE_PREFIX_PATH=$prefix"]
+#options = ["-DCMAKE_BUILD_TYPE=Release"]
 files = [""]
 
 cd(@__DIR__)
