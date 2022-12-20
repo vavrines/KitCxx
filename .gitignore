@@ -3,3 +3,5 @@ Manifest.toml
 *.out
 *.so
 deps/build/
+dev/.ipynb_checkpoints/
+dev/main
